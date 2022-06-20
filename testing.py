@@ -22,7 +22,7 @@ if is_cuda:
     print("using cuda")
 else:
     model.cpu()
-    print("using cuda")
+    print("using cpu")
 model.eval()
 
 test_folder = 'testing_inputs'
